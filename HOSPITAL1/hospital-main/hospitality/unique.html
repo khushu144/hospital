@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css\header.css">
+    <link rel="stylesheet" href="css\hospital.css">
+    <link rel="stylesheet" href="css\profile.css">
+    <link rel="stylesheet" href="css\footer.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img\logo\hms.png" width="160" height="50" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="doctor.html">Doctors</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="dropdown nav-item">
+                        <a class="nav-link" href="hospital.html">Hospitals</a>
+                        <div class="dropdown-content">
+                          <a href="kiran.html">Kiran Hospital</a>
+                          <a href="sunshine.html">Sunshine Hospital</a>
+                          <a href="unique.html">Unique Hospital</a>
+                        </div>
+                     </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    <li id="registerOption" class="nav-item"><a class="nav-link" href="register.html">Registration</a></li>
+                    <li id="profileNav" class="nav-item" style="display: none;">
+                        <div id="profileContainer">
+                            <div id="profileLogo" class="profile-logo"></div>
+                            <span id="profileInitial" style="display: none;">U</span>
+                            <span id="dropdownArrow">▼</span>
+                        </div>
+                        <div id="profileDropdown" class="dropdown1">
+                            <a href="profile.html">Edit Profile</a>
+                            <a href="#">Help & Support</a>
+                            <a href="#" id="logout">Logout</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="mySlides">
+        <h2><center>ABOUT US</center><span style="color: #265885;"> </span></h2>
+        <div class="section-line"></div><br>
+        <h2><center>Welcome To Unique Hospital</center><span style="color: #265885;"> </span></h2><br>
+        <div class="row">
+            <div class="col-md-6" style="margin-bottom: 40px; padding: 20px;">
+                <p><span style="color: #214fe5;">UNIQUE HOSPITAL- </span>ideally located in center or surat city,on the most convenient approached roads,stand the Unique Hospital-Multispeciality & Research institute,100 bedded hospital with 32 bedded well equippes ICU.inaugurated for care of the patients on December 30,2012,the hospital opened its doors for the service of healing with humanity,the hospital is run by surat lifecare Pvt Ltd.</p>
+                <ul class="list-unstyled">
+                <p><span style="color: #214fe5;"></span>it was the culmination of a noble desire by unique Hospital Family,to bulid a hospital that would gratify to the fundamental healthcare needs of the common man with aim to provide quality health care services.</p>
+                <p><span style="color: #214fe5;"></span>The Hospital have diverse category of discerningly planned rooms along with panoramic and plesant surroundings,a homely ambiance and relaxed accommodation.The motto of the hospital is to achieve secure ,ethical and reasonable aid to the sick.</p>   
+            </div>
+            <div class="col-md-6">
+                <img style="border-radius: 50px; margin-left: 30px;" src="img/gallery/img.jpg" width="550" height="400" alt="">
+            </div>
+        </div>
+    </div>
+
+            <h2 class="display-8"><center>OUR MISSION</center></h2>
+            <div class="section-line"></div>
+        <p><center>MultiSpecialty & Research institute provides the integral components of world-class care<br></center><center> medical & surgical expertise,access to clinical and the most STATE-OF-THE-ART <br></center> <center> treatment apporoaches,modern,high-tech facilities and compassionate care<br></center><center> through dedicated healthcare professional with humanity in a warm,healing environment.</center></p>
+        <div class="bg-color-dark">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h2 class="section-title"></h2>
+                    <div class="row g-4">
+                        <h2 class="display-8"><center>TREATMENTS</center></h2>
+                         <div class="col-md-6">
+                        <div class="service-block-v8">
+                        <div class="service-block-desc">
+                         <h3>Advanced Joint Replacement</h3>
+                     </div>
+                    </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-block-v8">
+                         <div class="service-block-desc">
+                         <h3>Cardiothoracic & Vascular Surgery</h3>
+                         </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-block-v8">
+                         <div class="service-block-desc">
+                         <h3>Critical Care & Pulmonology</h3>
+                         </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-block-v8">
+                         <div class="service-block-desc">
+                         <h3>Ent Care</h3>
+                         </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-block-v8">
+                         <div class="service-block-desc">
+                         <h3>Gastroenterology</h3>
+                         </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-block-v8">
+                         <div class="service-block-desc">
+                         <h3>General Medicine</h3>
+                         </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-block-v8">
+                         <div class="service-block-desc">
+                         <h3>Minimal lnvasie(Laproscopy)Surgery</h3>
+                         </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-block-v8">
+                         <div class="service-block-desc">
+                         <h3>Neuro Surgery & Trauma Center</h3>
+                         </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-block-v8">
+                         <div class="service-block-desc">
+                         <h3>Oncology & Oncosurgery</h3>
+                         </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-block-v8">
+                         <div class="service-block-desc">
+                         <h3>Plastic & Reconstructive Surgery</h3>
+                         </div>
+                        </div>
+                    </div>
+                    
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+     <!-- Custom CSS -->
+     <link rel="stylesheet" href="css\header.css">
+     <link rel="stylesheet" href="css\doctor.css">
+     <link rel="stylesheet" href="css\hospital.css">
+     <link rel="stylesheet" href="css\footer.css">
+</head>
+<body>
+   
+
+    <!-- Image title -->
+	<div class="doctors-title" style="text-align: center; margin-top: 50px;">
+        <h2>TEAM UNIQUE</h2>
+    </div>
+    
+    <div class="container content-md team-v1">
+        <ul class="list-unstyled row">
+            <li class="col-sm-3 col-xs-6 " style="margin-bottom: 30px;">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/gallery/doc1.jpg" alt="">
+                    <ul>
+                        <li><a href="https://www.twitter.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <h3>Dr. Haresh Vastarpara</h3>
+		        
+		        <p><b>Intensivist & Critical Care Specialis</b></p>
+            </li>
+            <li class="col-sm-3 col-xs-6 " style="margin-bottom: 30px;">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/gallery/doc2.jpg" alt="">
+                    <ul>
+                        <li><a href="https://www.twitter.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <h3>Dr. C.D. Lalwani</h3>
+                
+                <p><b>Physician</b></p>
+            </li>
+            <li class="col-sm-3 col-xs-6" style="margin-bottom: 30px;">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/gallery/doc3.jpg" alt="">
+                    <ul>
+                        <li><a href="https://www.twitter.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <h3>Dr. Farida Wadia</h3>
+		        
+		        <p><b>ENT Surgeon</b></p>
+            </li>
+            <li class="col-sm-3 col-xs-6" style="margin-bottom: 30px;">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/gallery/doc4.jpg" alt="">
+                    <ul>
+                        <li><a href="https://www.twitter.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <h3>Dr. Hitesh Patel</h3>
+		     
+		        <p><b>Laparoscopic Surgeon</b></p>
+            </li>
+        </ul>
+    </div>
+    <!-- Second Line -->
+    <div class="container content-md team-v1" >
+        <ul class="list-unstyled row">
+            <li class="col-sm-3 col-xs-6 " style="margin-bottom: 30px;">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/gallery/doc5.jpg" alt="">
+                    <ul>
+                        <li><a href="https://www.twitter.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <h3>Dr. Jitendra Pal Nishal</h3>
+		        
+		        <p><b>Physician</b></p>
+            </li>
+            <li class="col-sm-3 col-xs-6 " style="margin-bottom: 30px;">
+                <div class="team-img">
+                <img class="img-responsive" src="img/gallery/doc6.jpg" alt="">
+                    <ul>
+                        <li><a href="https://www.twitter.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <h3>Dr. Rajesh Modi</h3>
+		       
+		        <p><b>Physician</b></p>
+            </li>
+            <li class="col-sm-3 col-xs-6" style="margin-bottom: 30px;">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/gallery/doc7.jpg" alt="">
+                    <ul>
+                        <li><a href="https://www.twitter.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <h3>Dr. Rajesh Prajapati</h3>
+                
+                <p><b>Physician & Intensivist</b></p>
+            </li>
+            <li class="col-sm-3 col-xs-6 " style="margin-bottom: 30px;">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/gallery/doc8.jpg" alt="">
+                    <ul>
+                        <li><a href="https://www.twitter.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com"><i class="icon-custom icon-sm rounded-x fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <h3>Dr. Tanveer Maksud</h3>
+		       
+		        <p><b>Medical Oncologist</b></p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="Facility-title" style="text-align: center; margin-top: 50px;">
+        <h2>FACILITY</h2>
+    </div>
+     <!--=== Team v1 ===-->
+     <div class="container content-md team-v1">
+        <ul class="list-unstyled row">
+            <li class="col-sm-3 col-xs-6 " style="margin-bottom: 30px;">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/medical/f1.jpg" alt="">
+                   </div>
+                <h3>3 State of Art - OT</h3>
+		        </li>
+            <li class="col-sm-3 col-xs-6 " style="margin-bottom: 30px;">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/medical/f2.jpg" alt="">
+                    </div>
+                <h3>Moller wedel microscope</h3>
+                </li>
+            <li class="col-sm-3 col-xs-6" style="margin-bottom: 30px;">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/medical/f3.jpg" alt="">
+                   </div>
+                <h3>Pathology Laboratory with advanced instruments</h3>
+		        </li>
+            <li class="col-sm-3 col-xs-6" style="margin-bottom: 30px;">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/medical/f4.jpg" alt="">
+                </div>
+                <h3>24 x 7 Pharmacy</h3>
+		     </li>
+        </ul>
+    </div>
+    <!-- Second Line -->
+    <div class="container content-md team-v1" >
+        <ul class="list-unstyled row">
+            <li class="col-sm-3 col-xs-6 " style="margin-bottom: 30px;">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/medical/f5.jpg" alt="">
+                    </div>
+                <h3>24 x 7 Dialysis Unit </h3>
+               </li>
+            <li class="col-sm-3 col-xs-6 " style="margin-bottom: 30px;">
+                <div class="team-img">
+                <img class="img-responsive" src="img/medical/f6.jpg" alt="">
+             </div>
+                <h3>Level - 1 Sleep Lab</h3>
+		    </li>
+            <li class="col-sm-3 col-xs-6" style="margin-bottom: 30px;">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/medical/f7.jpg" alt="">
+            </div>
+                <h3>Spirometry</h3>
+            </li>
+            <li class="col-sm-3 col-xs-6 " style="margin-bottom: 30px;">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/medical/f8.jpg" alt="">
+                </div>
+                <h3>HD Karlz Storz Laproscope</h3>
+		    </li>
+        </ul>
+    </div>
+
+
+    
+    <!--=== Footer ===-->
+    <div class="footer-v1">
+        <div class="footer">
+            <div class="container1">
+                <div class="row">
+                    <!-- About -->
+                    <div class="col-md-3 md-margin-bottom-40">
+                        <a href="index.html"><img id="logo-footer" class="footer-logo" src="img/logo/logo.png" width="160" height="50" alt="Logo" alt=""></a>
+                        <p>We are convinced that 'quality' and 'lowest cost' are not mutually exclusive when it comes to healthcare delivery.</p>
+                        <p>Our mission is to deliver high quality, affordable healthcare services to the broader population in India.</p>
+                    </div><!--/col-md-3-->
+                    <!-- End About -->
+                     <!-- Address -->
+                    <div class="col-md-3 map-img" style="margin-bottom: 40px;">
+                        <div class="headline"><h2>Treatmenty</h2></div>
+                        <address class="md-margin-bottom-40">
+                            Advanced Joint Replacement And Arthroscopy <br />
+                            Cardiothoracic & Vascular Surgery <br />
+                            Critical Care & Pulmonology <br />
+                            Ent Care <br />
+                            Gastroenterology <br />
+                            General Medicine <br />
+                            General Surgery <br />
+                            Minimal Invasie (Laproscopy) Surgery <br />
+                            Neuro Surgery & Trauma Center <br />
+                            Oncology & Oncosurgery <br />
+                            Plastic & Reconstructive Surgery <br />
+                            Urology
+                        </address>
+
+                    
+                    </div><!--/col-md-3-->
+                    <!-- End Latest -->
+
+                    <!-- Address -->
+                    <div class="col-md-3 map-img" style="margin-bottom: 40px;">
+                        <div class="headline"><h2>Facility</h2></div>
+                        <address class="md-margin-bottom-40">
+                            100 Bedded Multi-Speciality Hospital <br />
+                            32 Bedded Well Equipped ICU <br />
+                            24 X 7 Well Qualified Intensivist <br />
+                            24 X 7 Dialysis Unit <br />
+                            24 X 7 Emergency &  <br />
+                            Experienced Nursing Staff <br />
+                            3 State Of Art - OT <br />
+                            Laminar Air Flow OT <br />
+                            HD Karlz Storz Laproscope <br />
+                            Moller Wedel Microscope <br />
+                            Olympus Video Gastro <br />
+                            Level - 1 Sleep Lab <br />  
+                        </address>
+                    </div><!--/col-md-3-->
+                    
+
+                    <!-- End Link List -->
+
+                    <!-- Address -->
+                    <div class="col-md-3 map-img" style="margin-bottom: 40px;">
+                        <div class="headline"><h2>Contact Us</h2></div>
+                        <address class="md-margin-bottom-40">
+                            Unique Hospital : <br />
+                            Opp. Kiran Motor, Near Canal, Civil Hospital-Char Rasta Sosyo Circle Lane, Off Ring Road, Surat - 395002, Gujarat, India <br />
+                            Emergency : +91-94266 45559 <br />
+                            Ambulance : +91-99789 58319 <br />
+                            Phone No : +91-(261) 6776600/6666 <br />
+                            Email : uniquehospitalsurat@yahoo.com <br />
+                        </address>
+                    </div><!--/col-md-3-->
+                    <!-- End Address -->
+                </div>
+            </div>
+        </div><!--/footer-->
+
+        <div class="copyright">
+            <div class="container1">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>
+                            2025 &copy; All Rights Reserved.
+                            <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a>
+                        </p>
+                    </div>
+                    <!-- Social Links -->
+                    <!-- <div class="col-md-6">
+                        <ul class="footer-socials list-inline">
+                            <li>
+                                <a href="http://www.facebook.com" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.skype.com" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Skype">
+                                    <i class="fa fa-skype"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.googleplus.com" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google Plus">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.linkedin.com" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linkedin">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.Pinterest.com" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Pinterest">
+                                    <i class="fa fa-pinterest"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.twitter.com" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div> -->
+                    <!-- End Social Links -->
+                </div>
+            </div>
+        </div><!--/copyright-->
+    </div>
+    <!--=== End Footer ===-->
+
+
+    <!-- Bootstrap JS and jQuery -->
+    <!-- <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
+    
+    
+
